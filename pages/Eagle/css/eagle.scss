@@ -1,0 +1,36 @@
+@import '../../../css/style';
+@import '../../Panda/css/panda';
+
+.zoos__video-big {
+  background-image: url('../../../assets/img/zoos/eagle-video-1.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.zoos__video-small {
+  &:nth-child(1) {
+    background-image: url('../../../assets/img/zoos/eagle-video-2.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  &:nth-child(2) {
+    background-image: url('../../../assets/img/zoos/eagle-video-3.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  &:nth-child(3) {
+    background-image: url('../../../assets/img/zoos/eagle-video-4.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  &:nth-child(4) {
+    background-image: url('../../../assets/img/zoos/eagle-video-5.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}

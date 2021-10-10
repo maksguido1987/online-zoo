@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online-Zoo</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="home">
+
+    <div class="wrapper">
+      <div class="page">
+        <div class="container">
+          <header class="header">
+            <h1>Online Zoo</h1>
+            <div class="header__wrapper">
+              <a href="./index.html" class="header__wrapper-logo">
+                <img src="./assets/icons/logo.svg" alt="online-zoo-logo"/>
+              </a>
+              <nav class="header__menu">
+                <ul class="header__menu-list">
+                  <li><a href="./index.html" class="header__menu-link active-header-menu">About</a></li>
+                  <li><a href="./pages/Map/map.html" class="header__menu-link">Map</a></li>
+                  <li><a href="./pages/Panda/panda.html" class="header__menu-link">Zoos</a></li>
+                  <li><a href="./pages/404/404.html" class="header__menu-link">Contact us</a></li>
+                  <li><a target="_blank" href="https://www.figma.com/file/aBvQMVmI665DtzprpiniuH/online-zoo" class="header__menu-link">Design</a></li>
+                </ul>
+              </nav>
+              <div class="menu__icon icon-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+             </div>
+            </div>
+          </header>
+          <section class="section__preview preview-section">
+            <div class="preview-section__wrapper">
+              <h2 class="preview-section__text">
+                Watch your favorite animal <span>online</span>
+              </h2>
+              <a href="./pages/Panda/panda.html" class="btn preview-section__btn">&#9658; Play</a>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+
+    <section class="section carousel-section">
+      <div class="container carousel-section-container">
+        <div class="section__title-wrapper section__title-wrapper-carousel">
+          <h2 class="section__title">How it works</h2>
+        </div>
+        <div class="carousel-section__wrapper">
+          <ul class="carousel-section__body">
+            <li class="carousel-section__item" data-pos="-2"></li>
+            <li class="carousel-section__item" data-pos="-1"></li>
+            <li class="carousel-section__item" data-pos="0"></li>
+            <li class="carousel-section__item" data-pos="1"></li>
+            <li class="carousel-section__item" data-pos="2"></li>
+          </ul>
+        </div>
+        <div class="carousel-section__text-wrapper">
+          <div class="carousel-section__text">
+            <p>
+              The application Оnline zoo will allow you to watch zoos' and
+              nature reserves' inhabitants in live. Currently, under
+              video-surveillance are pandas in China, eagles on Catalina Island
+              (USA), alligators in Florida and gorillas in the Congo. We are
+              expanding our capabilities and soon online you will meet Arctic
+              snowy owl in Alaska, Penguin in California, Elephant from South
+              Africa and Polar bear from Canada. You will see unique video-shots
+              at any time of the day. If you liked a pet you watch and you want
+              to please it with a delicious treat, you can pay a donation and
+              the animal will receive a surprise from you during feeding hours.
+            </p>
+            <p>
+              We want to thank you for helping the animals and give you
+              <a href="#">discount coupons</a> from our partners.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-pets">
+
+      <button class="slider-pets__prev slider__control">
+        <img src="./assets/img/slider/prev-arrow.png" alt="arrow-prev"/>
+      </button><!-- btn-prev -->
+
+      <div class="container container-pets">
+
+        <div class="section__title-wrapper section__title-wrapper-pets">
+          <h2 class="section__title">Pets in zoo</h2>
+        </div><!-- title -->
+        <div class="section-pets__slider slider-pets">
+
+          <!-- <button class="slider-pets__prev slider__control">
+            <img src="./assets/img/slider/prev-arrow.png" alt="arrow-prev"/>
+          </button> -->
+
+          <!-- <div class="slider-pets__wrapper">
+            <div class="slider-pets__track">
+              <div class="slider-pets__column">
+                <div class="slider-pets__slide">
+                  <a href="./pages/Panda/panda.html" class="slider-pets__cart">
+                    <p>Panda, China</p>
+                    <img src="./assets/img/slider/01.jpg" alt="panda" />
+                  </a>
+                </div>
+                <div class="slider-pets__slide">
+                  <a class="slider-pets__cart">
+                    <p>Polar bear, Canada</p>
+                    <img src="./assets/img/slider/05.jpg" alt="white-beer" />
+                  </a>
+                </div>
+              </div>
+              <div class="slider-pets__column">
+                <div class="slider-pets__slide">
+                  <a href="./pages/Alligator/alligator.html" class="slider-pets__cart">
+                    <p>Alligator, USA</p>
+                    <img src="./assets/img/slider/02.jpg" alt="alligator" />
+                  </a>
+                </div>
+                <div class="slider-pets__slide">
+                  <a href="./pages/Eagle/eagle.html" class="slider-pets__cart">
+                    <p>Bald eagle, USA</p>
+                    <img src="./assets/img/slider/06.jpg" alt="eagle" />
+                  </a>
+                </div>
+              </div>
+              <div class="slider-pets__column">
+                <div class="slider-pets__slide">
+                  <a href="./pages/Gorilla/gorilla.html" class="slider-pets__cart">
+                    <p>Gorilla, Eastern DRC</p>
+                    <img src="./assets/img/slider/03.jpg" alt="gorilla" />
+                  </a>
+                </div>
+                <div class="slider-pets__slide">
+                  <a class="slider-pets__cart">
+                    <p>Arctic snowy owl, Alaska</p>
+                    <img src="./assets/img/slider/07.jpg" alt="snown-owl" />
+                  </a>
+                </div>
+              </div>
+              <div class="slider-pets__column">
+                <div class="slider-pets__slide">
+                  <a class="slider-pets__cart">
+                    <p>Elephant, South Africa</p>
+                    <img src="./assets/img/slider/04.jpg" alt="elefant" />
+                  </a>
+                </div>
+                <div class="slider-pets__slide">
+                  <a class="slider-pets__cart">
+                    <p>Penguin, USA</p>
+                    <img src="./assets/img/slider/08.jpg" alt="penguin" />
+                  </a>
+                </div>
+              </div>
+              <div class="slider-pets__column">
+                <div class="slider-pets__slide">
+                  <a href="./pages/Panda/panda.html" class="slider-pets__cart">
+                    <p>Panda, China</p>
+                    <img src="./assets/img/slider/01.jpg" alt="panda" />
+                  </a>
+                </div>
+                <div class="slider-pets__slide">
+                  <a class="slider-pets__cart">
+                    <p>Polar bear, Canada</p>
+                    <img src="./assets/img/slider/05.jpg" alt="white-beer" />
+                  </a>
+                </div>
+              </div>
+              <div class="slider-pets__column">
+                <div class="slider-pets__slide">
+                  <a href="./pages/Alligator/alligator.html" class="slider-pets__cart">
+                    <p>Alligator, USA</p>
+                    <img src="./assets/img/slider/02.jpg" alt="alligator" />
+                  </a>
+                </div>
+                <div class="slider-pets__slide">
+                  <a href="./pages/Eagle/eagle.html" class="slider-pets__cart">
+                    <p>Bald eagle, USA</p>
+                    <img src="./assets/img/slider/06.jpg" alt="eagle" />
+                  </a>
+                </div>
+              </div>
+              <div class="slider-pets__column">
+                <div class="slider-pets__slide">
+                  <a href="./pages/Gorilla/gorilla.html" class="slider-pets__cart">
+                    <p>Gorilla, Eastern DRC</p>
+                    <img src="./assets/img/slider/03.jpg" alt="gorilla" />
+                  </a>
+                </div>
+                <div class="slider-pets__slide">
+                  <a class="slider-pets__cart">
+                    <p>Arctic snowy owl, Alaska</p>
+                    <img src="./assets/img/slider/07.jpg" alt="snown-owl" />
+                  </a>
+                </div>
+              </div>
+              <div class="slider-pets__column">
+                <div class="slider-pets__slide">
+                  <a class="slider-pets__cart">
+                    <p>Elephant, South Africa</p>
+                    <img src="./assets/img/slider/04.jpg" alt="elefant" />
+                  </a>
+                </div>
+                <div class="slider-pets__slide">
+                  <a class="slider-pets__cart">
+                    <p>Penguin, USA</p>
+                    <img src="./assets/img/slider/08.jpg" alt="penguin" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div> -->
+
+          <div class="slider-pets__wrapper slider-pets__wrapper-show">
+            <div class="slider-pets__track">
+              <div class="slider-pets__column">
+                <div class="slider-pets__slide">
+                  <a href="./pages/Panda/panda.html" class="slider-pets__cart">
+                    <p>Panda, China</p>
+                    <img src="./assets/img/slider/01.jpg" alt="panda" />
+                  </a>
+                </div>
+                <div class="slider-pets__slide">
+                  <a class="slider-pets__cart">
+                    <p>Polar bear, Canada</p>
+                    <img src="./assets/img/slider/05.jpg" alt="white-beer" />
+                  </a>
+                </div>
+              </div>
+              <div class="slider-pets__column">
+                <div class="slider-pets__slide">
+                  <a href="./pages/Alligator/alligator.html" class="slider-pets__cart">
+                    <p>Alligator, USA</p>
+                    <img src="./assets/img/slider/02.jpg" alt="alligator" />
+                  </a>
+                </div>
+                <div class="slider-pets__slide">
+                  <a href="./pages/Eagle/eagle.html" class="slider-pets__cart">
+                    <p>Bald eagle, USA</p>
+                    <img src="./assets/img/slider/06.jpg" alt="eagle" />
+                  </a>
+                </div>
+              </div>
+              <div class="slider-pets__column">
+                <div class="slider-pets__slide">
+                  <a href="./pages/Gorilla/gorilla.html" class="slider-pets__cart">
+                    <p>Gorilla, Eastern DRC</p>
+                    <img src="./assets/img/slider/03.jpg" alt="gorilla" />
+                  </a>
+                </div>
+                <div class="slider-pets__slide">
+                  <a class="slider-pets__cart">
+                    <p>Arctic snowy owl, Alaska</p>
+                    <img src="./assets/img/slider/07.jpg" alt="snown-owl" />
+                  </a>
+                </div>
+              </div>
+              <div class="slider-pets__column">
+                <div class="slider-pets__slide">
+                  <a class="slider-pets__cart">
+                    <p>Elephant, South Africa</p>
+                    <img src="./assets/img/slider/04.jpg" alt="elefant" />
+                  </a>
+                </div>
+                <div class="slider-pets__slide">
+                  <a class="slider-pets__cart">
+                    <p>Penguin, USA</p>
+                    <img src="./assets/img/slider/08.jpg" alt="penguin" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div><!-- wrapper -->
+
+          <div class="slider-pets__wrapper">
+            <div class="slider-pets__track">
+              <div class="slider-pets__column">
+                <div class="slider-pets__slide">
+                  <a href="./pages/Panda/panda.html" class="slider-pets__cart">
+                    <p>Panda, China</p>
+                    <img src="./assets/img/slider/01.jpg" alt="panda" />
+                  </a>
+                </div>
+                <div class="slider-pets__slide">
+                  <a class="slider-pets__cart">
+                    <p>Polar bear, Canada</p>
+                    <img src="./assets/img/slider/05.jpg" alt="white-beer" />
+                  </a>
+                </div>
+              </div>
+              <div class="slider-pets__column">
+                <div class="slider-pets__slide">
+                  <a href="./pages/Alligator/alligator.html" class="slider-pets__cart">
+                    <p>Alligator, USA</p>
+                    <img src="./assets/img/slider/02.jpg" alt="alligator" />
+                  </a>
+                </div>
+                <div class="slider-pets__slide">
+                  <a href="./pages/Eagle/eagle.html" class="slider-pets__cart">
+                    <p>Bald eagle, USA</p>
+                    <img src="./assets/img/slider/06.jpg" alt="eagle" />
+                  </a>
+                </div>
+              </div>
+              <div class="slider-pets__column">
+                <div class="slider-pets__slide">
+                  <a href="./pages/Gorilla/gorilla.html" class="slider-pets__cart">
+                    <p>Gorilla, Eastern DRC</p>
+                    <img src="./assets/img/slider/03.jpg" alt="gorilla" />
+                  </a>
+                </div>
+                <div class="slider-pets__slide">
+                  <a class="slider-pets__cart">
+                    <p>Arctic snowy owl, Alaska</p>
+                    <img src="./assets/img/slider/07.jpg" alt="snown-owl" />
+                  </a>
+                </div>
+              </div>
+              <div class="slider-pets__column">
+                <div class="slider-pets__slide">
+                  <a class="slider-pets__cart">
+                    <p>Elephant, South Africa</p>
+                    <img src="./assets/img/slider/04.jpg" alt="elefant" />
+                  </a>
+                </div>
+                <div class="slider-pets__slide">
+                  <a class="slider-pets__cart">
+                    <p>Penguin, USA</p>
+                    <img src="./assets/img/slider/08.jpg" alt="penguin" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div><!-- wrapper -->
+          
+          <div class="slider-pets__wrapper">
+            <div class="slider-pets__track">
+              <div class="slider-pets__column">
+                <div class="slider-pets__slide">
+                  <a href="./pages/Panda/panda.html" class="slider-pets__cart">
+                    <p>Panda, China</p>
+                    <img src="./assets/img/slider/01.jpg" alt="panda" />
+                  </a>
+                </div>
+                <div class="slider-pets__slide">
+                  <a class="slider-pets__cart">
+                    <p>Polar bear, Canada</p>
+                    <img src="./assets/img/slider/05.jpg" alt="white-beer" />
+                  </a>
+                </div>
+              </div>
+              <div class="slider-pets__column">
+                <div class="slider-pets__slide">
+                  <a href="./pages/Alligator/alligator.html" class="slider-pets__cart">
+                    <p>Alligator, USA</p>
+                    <img src="./assets/img/slider/02.jpg" alt="alligator" />
+                  </a>
+                </div>
+                <div class="slider-pets__slide">
+                  <a href="./pages/Eagle/eagle.html" class="slider-pets__cart">
+                    <p>Bald eagle, USA</p>
+                    <img src="./assets/img/slider/06.jpg" alt="eagle" />
+                  </a>
+                </div>
+              </div>
+              <div class="slider-pets__column">
+                <div class="slider-pets__slide">
+                  <a href="./pages/Gorilla/gorilla.html" class="slider-pets__cart">
+                    <p>Gorilla, Eastern DRC</p>
+                    <img src="./assets/img/slider/03.jpg" alt="gorilla" />
+                  </a>
+                </div>
+                <div class="slider-pets__slide">
+                  <a class="slider-pets__cart">
+                    <p>Arctic snowy owl, Alaska</p>
+                    <img src="./assets/img/slider/07.jpg" alt="snown-owl" />
+                  </a>
+                </div>
+              </div>
+              <div class="slider-pets__column">
+                <div class="slider-pets__slide">
+                  <a class="slider-pets__cart">
+                    <p>Elephant, South Africa</p>
+                    <img src="./assets/img/slider/04.jpg" alt="elefant" />
+                  </a>
+                </div>
+                <div class="slider-pets__slide">
+                  <a class="slider-pets__cart">
+                    <p>Penguin, USA</p>
+                    <img src="./assets/img/slider/08.jpg" alt="penguin" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div><!-- wrapper -->
+
+          <!-- <button class="slider-pets__next slider__control">
+            <img src="./assets/img/slider/next-arrow.png" alt="arrow-next" />
+          </button> -->
+        </div>
+
+        <a href="./pages/Map/map.html" class="btn btn-pets">Choose your favorite</a>
+
+      </div>
+
+      <button class="slider-pets__next slider__control">
+        <img src="./assets/img/slider/next-arrow.png" alt="arrow-next" />
+      </button><!-- btn-next -->
+
+    </section>
+    
+    <section class="section section-pay">
+      <div class="container container-pay">
+        <div class="section__title-wrapper section-pay-title">
+          <h2 class="section__title">Pay and feed</h2>
+        </div>
+        <div class="section-pay__wrapper">
+          <div class="section-pay__column">
+            <div class="section-pay__column-wrapper">
+              <a href="#" class="section-pay__column-image">
+                <img src="./assets/img/section-pay/card-pay.svg" alt="pay-image"/>
+              </a>
+              <div class="section-pay__column-text">
+                You can pay for a donation to any animal using your Credit/Debit
+                card
+              </div>
+            </div>
+          </div>
+          <div class="section-pay__column">
+            <div class="section-pay__column-wrapper">
+              <a href="#" class="section-pay__column-image">
+                <img src="./assets/img/section-pay/zoo-pay.svg" alt="pay-image"/>
+              </a>
+              <div class="section-pay__column-text">
+                Donations will go to the account of the zoo or nature reserve
+              </div>
+            </div>
+          </div>
+          <div class="section-pay__column">
+            <div class="section-pay__column-wrapper">
+              <a href="#" class="section-pay__column-image">
+                <img src="./assets/img/section-pay/panda-pay.svg" alt="pay-image"/>
+              </a>
+              <div class="section-pay__column-text">
+                The animal will receive a delicious treat during feeding hours
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-testimonials">
+      <div class="container">
+        <div class="section__title-wrapper">
+          <h2 class="section__title">Testimonials</h2>
+        </div>
+        <div class="section-testimonials__wrapper">
+          <button class="slider-pets__prev">
+            <img src="./assets/img/slider/prev-arrow.png" alt="arrow-prew" />
+          </button>
+
+          <div class="section-testimonials__slider slider-testimonials">
+            <div class="slider-testimonials__slide">
+              <div class="slider-testimonials__slide-wrapper">
+                <div class="slider-testimonials__slide-info">
+                  <a href="#" class="slider-testimonials__slide-info-photo">
+                    <img src="./assets/img/section-testimonials/person_01.png" alt="photo"/>
+                  </a>
+                  <div class="slider-testimonials__slide-info-wrapper">
+                    <h3 class="slider-testimonials__slide-info-name">
+                      Karen Maitland
+                    </h3>
+                    <p class="slider-testimonials__slide-info-donate">+$10</p>
+                  </div>
+                </div>
+                <div class="slider-testimonials__slide-text">
+                  <p>
+                    "Thank you so much for these wonderful live webcams of the
+                    eagles on Catalina Island. Being able to watch them in their
+                    natural habitat as opposed to zoos is so wonderful. I cannot
+                    see myself ever being able to come up there to see them in
+                    person, so this is a great substitute. Thank you again."
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="slider-testimonials__slide">
+              <div class="slider-testimonials__slide-wrapper">
+                <div class="slider-testimonials__slide-info">
+                  <a href="#" class="slider-testimonials__slide-info-photo">
+                    <img src="./assets/img/section-testimonials/person_02.png" alt="photo"/>
+                  </a>
+                  <div class="slider-testimonials__slide-info-wrapper">
+                    <h3 class="slider-testimonials__slide-info-name">
+                      Sara Jones
+                    </h3>
+                    <p class="slider-testimonials__slide-info-donate">+$13</p>
+                  </div>
+                </div>
+                <div class="slider-testimonials__slide-text">
+                  <p>
+                    "A disability prevents me from enjoying the outdoors and
+                    travel like I used to do. I really enjoy all the live cams
+                    and can spend HOURS watching real-time entertainment. Wild
+                    life style!"
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="slider-testimonials__slide">
+              <div class="slider-testimonials__slide-wrapper">
+                <div class="slider-testimonials__slide-info">
+                  <a href="#" class="slider-testimonials__slide-info-photo">
+                    <img src="./assets/img/section-testimonials/person_03.png" alt="photo"/>
+                  </a>
+                  <div class="slider-testimonials__slide-info-wrapper">
+                    <h3 class="slider-testimonials__slide-info-name">
+                      Alex Barden
+                    </h3>
+                    <p class="slider-testimonials__slide-info-donate">+$7</p>
+                  </div>
+                </div>
+                <div class="slider-testimonials__slide-text">
+                  <p>
+                    "Here's a huge "thank-you" from New Hampshire - you allow me
+                    to travel the world without ever leaving the comfort of my
+                    office chair. Jammies on and coffee cup in hand, I am
+                    Phineas Fogg!!"
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="slider-testimonials__slide">
+              <div class="slider-testimonials__slide-wrapper">
+                <div class="slider-testimonials__slide-info">
+                  <a href="#" class="slider-testimonials__slide-info-photo">
+                    <img src="./assets/img/section-testimonials/person_04.png" alt="photo"/>
+                  </a>
+                  <div class="slider-testimonials__slide-info-wrapper">
+                    <h3 class="slider-testimonials__slide-info-name">
+                      Alene Ray
+                    </h3>
+                    <p class="slider-testimonials__slide-info-donate">+$18</p>
+                  </div>
+                </div>
+                <div class="slider-testimonials__slide-text">
+                  <p>
+                    "Thank you for all the knowledge, education, pleasure and
+                    happiness you have add to all our lives at no expense on our
+                    part. My humble thanks and gratitude are being wished for
+                    all of you. I want to thank you and feed the animals a small
+                    reward"
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section-testimonials__slider slider-testimonials__columns">
+            <div class="slider-testimonials__column">
+                <div class="slider-testimonials__slide">
+                <div class="slider-testimonials__slide-wrapper">
+                  <div class="slider-testimonials__slide-info">
+                    <a href="#" class="slider-testimonials__slide-info-photo">
+                      <img src="./assets/img/section-testimonials/person_01.png" alt="photo"/>
+                    </a>
+                    <div class="slider-testimonials__slide-info-wrapper">
+                      <h3 class="slider-testimonials__slide-info-name">
+                        Karen Maitland
+                      </h3>
+                      <p class="slider-testimonials__slide-info-donate">+$10</p>
+                    </div>
+                  </div>
+                  <div class="slider-testimonials__slide-text">
+                    <p>
+                      "Thank you so much for these wonderful live webcams of the
+                      eagles on Catalina Island. Being able to watch them in their
+                      natural habitat as opposed to zoos is so wonderful. I cannot
+                      see myself ever being able to come up there to see them in
+                      person, so this is a great substitute. Thank you again."
+                    </p>
+                  </div>
+                </div>
+              </div>
+            <div class="slider-testimonials__slide">
+              <div class="slider-testimonials__slide-wrapper">
+                <div class="slider-testimonials__slide-info">
+                  <a href="#" class="slider-testimonials__slide-info-photo">
+                    <img src="./assets/img/section-testimonials/person_02.png" alt="photo"/>
+                  </a>
+                  <div class="slider-testimonials__slide-info-wrapper">
+                    <h3 class="slider-testimonials__slide-info-name">
+                      Sara Jones
+                    </h3>
+                    <p class="slider-testimonials__slide-info-donate">+$13</p>
+                  </div>
+                </div>
+                <div class="slider-testimonials__slide-text">
+                  <p>
+                    "A disability prevents me from enjoying the outdoors and
+                    travel like I used to do. I really enjoy all the live cams
+                    and can spend HOURS watching real-time entertainment. Wild
+                    life style!"
+                  </p>
+                </div>
+              </div>
+            </div>
+            </div>
+            <div class="slider-testimonials__column">
+              <div class="slider-testimonials__slide">
+                <div class="slider-testimonials__slide-wrapper">
+                  <div class="slider-testimonials__slide-info">
+                    <a href="#" class="slider-testimonials__slide-info-photo">
+                      <img src="./assets/img/section-testimonials/person_03.png" alt="photo"/>
+                    </a>
+                    <div class="slider-testimonials__slide-info-wrapper">
+                      <h3 class="slider-testimonials__slide-info-name">
+                        Alex Barden
+                      </h3>
+                      <p class="slider-testimonials__slide-info-donate">+$7</p>
+                    </div>
+                  </div>
+                  <div class="slider-testimonials__slide-text">
+                    <p>
+                      "Here's a huge "thank-you" from New Hampshire - you allow me
+                      to travel the world without ever leaving the comfort of my
+                      office chair. Jammies on and coffee cup in hand, I am
+                      Phineas Fogg!!"
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="slider-testimonials__slide">
+                <div class="slider-testimonials__slide-wrapper">
+                  <div class="slider-testimonials__slide-info">
+                    <a href="#" class="slider-testimonials__slide-info-photo">
+                      <img src="./assets/img/section-testimonials/person_04.png" alt="photo"/>
+                    </a>
+                    <div class="slider-testimonials__slide-info-wrapper">
+                      <h3 class="slider-testimonials__slide-info-name">
+                        Alene Ray
+                      </h3>
+                      <p class="slider-testimonials__slide-info-donate">+$18</p>
+                    </div>
+                  </div>
+                  <div class="slider-testimonials__slide-text">
+                    <p>
+                      "Thank you for all the knowledge, education, pleasure and
+                      happiness you have add to all our lives at no expense on our
+                      part. My humble thanks and gratitude are being wished for
+                      all of you. I want to thank you and feed the animals a small
+                      reward"
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <button class="slider-pets__next">
+            <img src="./assets/img/slider/next-arrow.png" alt="arrow-next" />
+          </button>
+        </div>
+        <a class="btn btn-testimonials">Leave feedback</a href="#">
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__wrapper">
+        <img class="footer__bg-image" src="./assets/img/footer/bg-footer.png" alt="footer-bg"/>        
+        <div class="container">
+          <div class="footer__content-wrapper">
+
+            <div class="footer__top top-footer">
+              <div class="top-footer__column">
+                <div class="top-footer__logo">
+                  <a href="./index.html"><img src="./assets/icons/logo_footer.svg" alt="footer-logo"/></a>
+                </div>
+              </div>
+              <div class="top-footer__column">
+                <a class="btn top-footer__btn">Amount for volunteers</a>
+              </div>
+              <div class="top-footer__column">
+                <nav class="top-footer__menu">
+                  <ul class="top-footer__menu-list">
+                    <li>
+                      <a href="./index.html" class="top-footer__menu-link">About</a>
+                    </li>
+                    <li>
+                      <a href="./pages/Map/map.html" class="top-footer__menu-link">Map</a>
+                    </li>
+                  </ul>
+                  <ul class="top-footer__menu-list">
+                    <li>
+                      <a href="./pages/404/404.html" class="top-footer__menu-link">Contact us</a>
+                    </li>
+                    <li>
+                      <a class="top-footer__menu-link link-testimonials">Feedback</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="top-footer__column">
+                <nav class="top-footer__social">
+                  <ul class="top-footer__social-list">
+                    <li>
+                      <a href="https://instagram.com/" target="_blank" class="top-footer__social-link">
+                        <img src="./assets/icons/insta.svg" alt="icon-instagram"/>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://facebook.com" target="_blank" class="top-footer__social-link">
+                        <img src="./assets/icons/facebook.svg" alt="icon-facebook"/>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://twitter.com/" target="_blank" class="top-footer__social-link">
+                        <img src="./assets/icons/twitter.svg" alt="icon-twitter"/>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://youtube.com/" target="_blank" class="top-footer__social-link">
+                        <img src="./assets/icons/youtube.svg" alt="icon-youtube"/>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+            
+            <div class="footer__bottom bottom-footer">
+              <div class="bottom-footer__column">
+                <div class="bottom-footer__social-wrapper">
+                  <div class="bottom-footer__rs" title="RS School">
+                    <img src="./assets/icons/rsschool.svg" alt="icon-rsschool"/>
+                  </div>
+                  <div class="bottom-footer__yem" title="YEM Digital">
+                    <img src="./assets/icons/yem.svg" alt="icon-yem"/>
+                  </div>
+                  <a class="btn bottom-footer__btn">Amount for volunteers</a>
+                </div>
+              </div>
+              <div class="bottom-footer__author-wrap">
+                  <p class="bottom-footer__copyright">Grigoreva Margarita</p>
+                  <p class="bottom-footer__author">Copyright ©RSSchool <span>and</span> ©Yem Digital 2020 - 2021</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="popup__feedback popup">
+      <div class="popup__feedback-wrapper">
+        <a class="popup-close">
+          <img src="./assets/img/close.svg" alt="close popup">
+        </a>
+        <div class="popup__feedback-content">
+          <form action="" class="popup__feedback-form form-feedback">
+            <input type="text" class="form-feedback__name" placeholder="Name" required>
+            <input type="email"  class="form-feedback__email" placeholder="Email" required>
+            <textarea maxlength="300" class="form-feedback__text" placeholder="Your text here (300 max)" required></textarea>
+            <button class="btn form-feedback__btn">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="popup__donate popup">
+      <div class="popup__donat-wrapper">
+        <a class="popup-close">
+          <img src="./assets/img/close.svg" alt="close popup">
+        </a>
+        <div class="popup__donat-content">
+          <form action="" class="popup__donat-form form-donat">
+            <select class="popup__donat-select" required>
+                <option class="popup__donat-options donat-options-none" selected disabled></option>
+                <option class="popup__donat-options">Alligator</option>
+                <option class="popup__donat-options">Panda</option>
+                <option class="popup__donat-options">Eagle</option>
+                <option class="popup__donat-options">Gorilla</option>
+            </select>
+            <img src="assets/img/arrow-popup.svg" alt="arrow-popup-donate" class="arrow-popup">
+            <div class="popup__donat-input-wrap">
+              <input type="number" class="popup__donat-dotan" placeholder="Donat" pattern="/^-?\d+\.?\d*$/" required>
+              <select class="popup__donat-currency">
+                <option>USD</option>
+                <option>EURO</option>
+              </select>
+            </div>
+            <textarea class="popup__donat-text" maxlength="280" placeholder="Your text here"></textarea>
+            <button class="btn form-donat__btn">Next</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="popup__credit-cart popup">
+      <div class="popup__credit-cart-wrapper">
+        <a class="popup-close">
+          <img src="./assets/img/close.svg" alt="close popup">
+        </a>
+        <form class="popup__credit-cart-content">
+          <div class="cart-front-side">
+            <div action="#" class="credit-cart-form">
+              <div class="credit-cart-num">
+                <input type="number" placeholder="Сard Number" required class="credit-cart-num-input">
+              </div>
+                <div class="credit-cart-date">
+                  <input type="number" class="credit-cart-date-month" placeholder="MM" required>
+                  <input type="number" class="credit-cart-date-year" placeholder="YY" required>
+                </div>
+                <div class="credit-cart-name">
+                  <input type="text" placeholder="Сardholder Name" required>
+                </div>
+            </div>
+          </div>
+          <div class="cart-reverse-side">
+            <div class="credit-cart-form">
+              <div class="credit-cart-cvc">
+                <input type="number" placeholder="CVC" required class="credit-cart-cvc-num">
+              </div>
+            </div>
+          </div>
+          <button class="btn form-cart__btn">Donate</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
